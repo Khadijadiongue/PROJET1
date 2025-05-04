@@ -300,4 +300,82 @@ body {
     font-size: 16px;
   }
 }
+@media (max-width: 1024px) {
+    header .logo {
+        font-size: 60px;
+    }
 
+    header ul li a {
+        font-size: 30px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature-list {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .hero {
+        height: auto;
+        padding: 60px 20px;
+    }
+
+    .contact-form main {
+        flex-direction: column;
+    }
+
+    .content {
+        border-radius: 8px;
+    }
+
+    header ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    header ul li a {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    header .logo {
+        font-size: 40px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .contact-form h1,
+    .contact-form h2 {
+        font-size: 24px;
+    }
+
+    section {
+        padding: 30px 20px;
+    }
+
+    #download .btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}
